@@ -19,7 +19,7 @@
                 "s3:GetObjectVersionTagging"
             ],
             "Resource": [
-                "arn:aws:s3:::user30-source/*"
+                "arn:aws:s3:::user**-source/*"
             ]
         },
         {
