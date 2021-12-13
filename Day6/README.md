@@ -11,3 +11,4 @@ wget https://raw.githubusercontent.com/lormadus/sktlab/master/Day6/demo-script.s
 chmod 755 demo-script.sh
 ```
 
+sk-dev-cluster.yaml 파일 다운로드
