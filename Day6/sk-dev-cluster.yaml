@@ -2,11 +2,13 @@
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
-  name: test-cluster
+  name: user**-k8s-cluster
   region: ap-northeast-2 # region-name
   version: "1.21"
-availabilityZones: [" "]
+availabilityZones: ["가용영역1","가용영역2","가용영역3"]
 managedNodeGroups:
 - name: node-group
   desiredCapacity: 1
   instanceType: t3.medium
+  ssh:
+    publicKeyName: 'user30-k8s'
