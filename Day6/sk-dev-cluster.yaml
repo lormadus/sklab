@@ -1,0 +1,12 @@
+---
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: test-cluster
+  region: ap-northeast-2 # region-name
+  version: "1.21"
+availabilityZones: [" "]
+managedNodeGroups:
+- name: node-group
+  desiredCapacity: 1
+  instanceType: t3.medium
